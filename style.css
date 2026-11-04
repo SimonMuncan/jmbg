@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 40px 16px;
+}
+
+main {
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #1f3a5f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1f3a5f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c5282;
+}
+
+#rezultat {
+    margin-top: 20px;
+}
+
+.uspeh {
+    padding: 12px;
+    background-color: #e6f4ea;
+    border-left: 4px solid #2e7d32;
+}
+
+.greska {
+    padding: 12px;
+    background-color: #fdecea;
+    border-left: 4px solid #c62828;
+    color: #c62828;
+}
+
+.uspeh p {
+    margin: 6px 0;
+}

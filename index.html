@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacija JMBG-a</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Validacija JMBG-a</h1>
+
+        <form id="forma">
+            <label for="ime">Ime</label>
+            <input type="text" id="ime">
+
+            <label for="prezime">Prezime</label>
+            <input type="text" id="prezime">
+
+            <label for="jmbg">JMBG</label>
+            <input type="text" id="jmbg" maxlength="13" inputmode="numeric">
+
+            <button type="submit">Proveri</button>
+        </form>
+
+        <div id="rezultat"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
